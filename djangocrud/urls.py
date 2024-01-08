@@ -2,7 +2,7 @@
 URL configuration for djangocrud project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/4.2/topics/http/urls/
+    https://docs.djangoproject.com/en/5.0/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -20,6 +20,12 @@ from tasks import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.helloworld),
-    path('signup/', views.helloworld),
+    path('', views.home, name= 'home'),
+    path('signup/', views.signup, name='signup'),
+    path('tasks/', views.tasks, name='tasks'),
+    path('tasks/create/', views.create_task, name='create_tasks'),
+    path('tasks/<int:task_id>/', views.detail, name='detail'),
+    path('logout/', views.signout, name='logout'),
+    path('signin/', views.signin, name='signin'),
+
 ]

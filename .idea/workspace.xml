@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3f97eb14-68cb-4442-9174-c03499b9eed6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangocrud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocrud/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangocrud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocrud/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

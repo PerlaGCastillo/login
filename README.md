@@ -1,3 +1,0 @@
-# login
-
-Django basic CRUD
