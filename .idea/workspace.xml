@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f97eb14-68cb-4442-9174-c03499b9eed6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangocrud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocrud/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangocrud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocrud/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/templates/create_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/create_task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/signin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/templates/task_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/task_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/templates/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/tasks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +61,16 @@
           <url>file://$PROJECT_DIR$/tasks/views.py</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/djangocrud/settings.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/djangocrud/settings.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
