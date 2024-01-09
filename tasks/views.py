@@ -6,12 +6,12 @@ from django.contrib.auth import login, logout, authenticate
 from django.db import IntegrityError
 from .forms import TaskForm
 from .models import Task
-
+from django.utils import timezone
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 def home(request):
     return render(request, 'home.html')
-
 
 def signup(request):
     if request.method == 'GET':
@@ -37,14 +37,15 @@ def signup(request):
         'error': 'No coinciden las contraseñas'
     })
 
-
+@login_required
 def tasks(request):
     tasks = Task.objects.filter(user=request.user, datecompleted__isnull=True)
-    return render(request, 'tasks.html', {
-        'tasks': tasks,
-    })
-
-
+    return render(request, 'tasks.html', {'tasks': tasks})
+@login_required
+def tasks_completed(request):
+    tasks = Task.objects.filter(user=request.user, datecompleted__isnull=False).order_by('-datecompleted')
+    return render(request, 'tasks.html', {'tasks': tasks})
+@login_required
 def detail(request, task_id):
     if request.method == 'GET':
         task = get_object_or_404(Task, pk=task_id, user=request.user)
@@ -57,8 +58,24 @@ def detail(request, task_id):
             form.save()
             return redirect('tasks')
         except ValueError:
-            return render(request, 'task_detail.html', {'task': task, 'form': form, 'error': 'error actualizando tarea'})
+            return render(request, 'task_detail.html',
+                          {'task': task, 'form': form, 'error': 'error actualizando tarea'})
 
+@login_required
+def complete(request, task_id):
+    task = get_object_or_404(Task, pk=task_id, user=request.user)
+    if request.method == 'POST':
+        task.datecompleted = timezone.now()
+        task.save()
+        return redirect('tasks')
+@login_required
+def delete(request, task_id):
+    task = get_object_or_404(Task, pk=task_id, user=request.user)
+    if request.method == 'POST':
+        task.delete()
+        return redirect('tasks')
+
+@login_required
 def create_task(request):
     if request.method == 'GET':
         return render(request, 'create_task.html', {
@@ -77,7 +94,7 @@ def create_task(request):
                 'error': 'Ingresa un dato válido'
             })
 
-
+@login_required
 def signout(request):
     logout(request)
     return redirect('home')

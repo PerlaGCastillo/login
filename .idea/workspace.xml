@@ -4,9 +4,19 @@
     <list default="true" id="3f97eb14-68cb-4442-9174-c03499b9eed6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangocrud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocrud/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangocrud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocrud/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/create_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/create_task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/task_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/task_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/tasks.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/prrrrr/login",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/prrrrr/login&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,5 +64,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks/views.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
